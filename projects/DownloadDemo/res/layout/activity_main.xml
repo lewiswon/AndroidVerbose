@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lewis.downloaddemo.MainActivity" >
+
+    <TextView
+        android:id="@+id/tv_downloading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:text="" />
+
+    <ProgressBar
+        android:id="@+id/pb_main"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="http://7nj2m5.com1.z0.glb.clouddn.com/instruct.zip" />
+
+    <Button
+        android:id="@+id/btn_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下载" />
+
+    <Button
+        android:id="@+id/btn_pause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="暂停" />
+
+    <Button
+        android:id="@+id/btn_continue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="继续下载" />
+
+</LinearLayout>
