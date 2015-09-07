@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="名称" />
+
+    <EditText
+        android:id="@+id/et_zhuzhi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="主治" />
+
+    <EditText
+        android:id="@+id/et_jingji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="禁忌" />
+
+    <EditText
+        android:id="@+id/et_xianghguzuoyong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="相互作用" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="搜索" />
+
+    <EditText
+        android:id="@+id/et_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="find by id" />
+
+    <Button
+        android:id="@+id/btn_search_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FindById" />
+
+</LinearLayout>
