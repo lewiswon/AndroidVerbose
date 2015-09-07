@@ -25,6 +25,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".DBDemoActivity" >
+        </activity>
+        <activity android:name=".ListActivity" />
+        <activity android:name=".InstructDetailActivity" />
 
         <service android:name="com.lewis.downloaddemo.DownloadService" >
         </service>

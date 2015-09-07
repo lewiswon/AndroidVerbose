@@ -25,7 +25,7 @@ import android.widget.RemoteViews;
 import android.widget.TextView;
 
 public class MainActivity extends ActionBarActivity implements OnClickListener, DownLoadListener {
-	private Button downloadBtn, pauseBtn, continueBtn;
+	private Button downloadBtn, pauseBtn, continueBtn, dbDemoBtn;
 	private EditText urlEt;
 	private ProgressBar pbMain;
 	private double progress;
@@ -45,6 +45,8 @@ public class MainActivity extends ActionBarActivity implements OnClickListener, 
 		urlEt = (EditText) findViewById(R.id.et_url);
 		pbMain = (ProgressBar) findViewById(R.id.pb_main);
 		downloadTv = (TextView) findViewById(R.id.tv_downloading);
+		dbDemoBtn = (Button) findViewById(R.id.btn_dbdemo);
+		dbDemoBtn.setOnClickListener(this);
 		downloadBtn.setOnClickListener(this);
 		pauseBtn.setOnClickListener(this);
 		continueBtn.setOnClickListener(this);
@@ -94,7 +96,9 @@ public class MainActivity extends ActionBarActivity implements OnClickListener, 
 		case R.id.btn_continue:
 			continueBtn.setEnabled(false);
 			break;
-
+		case R.id.btn_dbdemo:
+			startActivity(new Intent(this, DBDemoActivity.class));
+			break;
 		default:
 			break;
 		}
