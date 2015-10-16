@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <solid android:color="@color/book_not_full" />
+
+    <size
+        android:height="14dip"
+        android:width="14dip" />
+
+    <stroke
+        android:width="0.1dip"
+        android:color="@color/book_not_full_border" />
+
+    <corners android:radius="1dip" />
+
+</shape>

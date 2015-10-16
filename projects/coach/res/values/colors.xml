@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="brand_color">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="pressed">#fafafa</color>
+    <color name="unfocus">#C0C0C0</color>
+    <color name="home_bg">#FAFAFA</color>
+    <color name="text_red">#CF4C56</color>
+    <color name="cut_line">#D6D6D6</color>
+    <color name="text_gray">#C0C0C0</color>
+    <color name="text_black">#525252</color>
+    <color name="test_green">#6ac242</color>
+    <color name="book_full">#F1F1F1</color>
+    <color name="book_not_full">#FCFCFC</color>
+    <color name="book_not_full_border">#DCDCDC</color>
+    <color name="brand_blue">#5D7FAF</color>
+    <color name="not_current_month">#EEEEEE</color>
+    <color name="login_bg">#414766</color>
+    <color name="next_btn">#242736</color>
+    <color name="next_btn_press">#1e202b</color>
+    <color name="welcom_login">#76C552</color>
+
+    <!-- qr  code -->
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+</resources>

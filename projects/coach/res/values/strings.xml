@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">coach</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="enter">Done</string>
+    <string name="rest">Rest</string>
+    <string name="time_tips">Each time period only set 4 students</string>
+    <string name="all_day_rest">All day</string>
+    <string name="period_rest">Period</string>
+    <string name="rest_tip">Confirm the start time and end time</string>
+    <string name="pick_student">Pick student</string>
+    <string name="forgot_pass">Forgot pass?</string>
+    <string name="login">Login</string>
+    <string name="register">Sign up</string>
+    <string name="phone">Phone</string>
+    <string name="password">Password</string>
+    <string name="password_repeat">Repeat password</string>
+    <string name="next">Next</string>
+    <string name="get_code">Get code</string>
+    <string name="verify_code">Verify code</string>
+    <string name="profile">Profile</string>
+    <string name="name">Name</string>
+    <string name="birthday">Birthday</string>
+    <string name="register_tip">Please input the real name</string>
+    <string name="review_from_student">学员对你的教学评价</string>
+    <string name="msg_from_student">学员对你说</string>
+
+</resources>
