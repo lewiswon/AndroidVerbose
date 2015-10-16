@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/set_rest_top"
+        layout="@layout/top_bar" />
+
+    <RadioGroup
+        android:id="@+id/rg_rest_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/timer_picker"
+        android:layout_below="@id/set_rest_top"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/rb_rest_all_day"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:layout_margin="20dip"
+            android:background="@color/brand_blue"
+            android:button="@null"
+            android:gravity="center"
+            android:text="全天休息"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rb_rest_part"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:layout_margin="20dip"
+            android:background="@color/unfocus"
+            android:button="@null"
+            android:gravity="center"
+            android:text="分时段休息"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/timer_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_enter_set_rest"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:padding="2dip"
+            android:text="选择开始时间及结束时间并确认"
+            android:textColor="@color/text_gray" />
+
+        <include layout="@layout/time_chooser" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_enter_set_rest"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/black_color_btn_selector"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="2dip"
+        android:text="确定"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</RelativeLayout>

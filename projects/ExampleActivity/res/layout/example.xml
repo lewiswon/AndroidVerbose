@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <ca.laplanete.mobile.pageddragdropgrid.PagedDragDropGrid
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="300dip"
+        android:layout_centerInParent="true"
+        android:background="@android:color/background_light"
+        android:scrollbars="@null" />
+
+</ScrollView>

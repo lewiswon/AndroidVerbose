@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">找个教练</string>
+    <string name="enter">确定</string>
+    <string name="rest">休息</string>
+    <string name="time_tips">每个时间段学员上限为4人</string>
+    <string name="all_day_rest">全天休息</string>
+    <string name="period_rest">分时段休息</string>
+    <string name="rest_tip">选择开始时间及结束时间并确认</string>
+    <string name="pick_student">选择学员</string>
+    <string name="forgot_pass">忘记密码?</string>
+    <string name="login">登陆</string>
+    <string name="register">注册</string>
+    <string name="phone">电话号码</string>
+    <string name="password">密码</string>
+    <string name="password_repeat">重复密码</string>
+    <string name="next">下一步</string>
+    <string name="get_code">获取验证码</string>
+    <string name="verify_code">验证码</string>
+    <string name="profile">填写资料</string>
+    <string name="name">姓名</string>
+    <string name="birthday">出生日期</string>
+    <string name="register_tip">请输入真实姓名</string>
+    <string name="review_from_student">学员对你的教学评价</string>
+    <string name="msg_from_student">学员对你说</string>
+
+</resources>

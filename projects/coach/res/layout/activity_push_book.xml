@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/push_book_top"
+        layout="@layout/top_bar" />
+
+    <RelativeLayout
+        android:id="@+id/rl_student_info_book_process"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:layout_below="@id/push_book_top"
+        android:background="@drawable/white_color_btn_selector"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/tv_name_push_book"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="王二錘"
+            android:textColor="@color/text_black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_type_push_book"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dip"
+            android:text="初次训练"
+            android:textColor="@color/text_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_date_push_book"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:text="5月23日"
+            android:textColor="@color/text_black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/ll_pick_student"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:background="@drawable/white_color_btn_selector"
+            android:clickable="true"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dip"
+                android:layout_centerInParent="true"
+                android:drawableLeft="@drawable/student"
+                android:drawablePadding="3dip"
+                android:gravity="center"
+                android:text="@string/pick_student"
+                android:textColor="@color/text_black"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_bottom"
+        android:layout_below="@id/rl_student_info_book_process"
+        android:layout_marginTop="10dip"
+        android:gravity="center" >
+
+        <include layout="@layout/clock" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:drawableLeft="@drawable/attention"
+            android:drawablePadding="20dip"
+            android:gravity="center_vertical"
+            android:padding="5dip"
+            android:text="@string/time_tips"
+            android:textColor="@color/text_gray" />
+
+        <include layout="@layout/time_chooser" />
+
+        <TextView
+            android:id="@+id/tv_enter_push_book"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:background="@drawable/black_color_btn_selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="2dip"
+            android:text="@string/enter"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>
