@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Android_MOOC.iml" filepath="$PROJECT_DIR$/Android_MOOC.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_se/java_se.iml" filepath="$PROJECT_DIR$/java_se/java_se.iml" />
     </modules>
   </component>
 </project>
