@@ -1,10 +1,116 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-tools:context=".MainActivity">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
-    <TextView android:text="@string/drug_instruct"
-      style="@style/list_item"
-   />
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:minHeight="?attr/actionBarSize">
 
+        <TextView
+            android:id="@+id/tv_toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Material ToolBar"
+            android:textColor="@android:color/black" />
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_01"
+                style="@style/list_item"
+                android:clickable="true"
+                android:onClick="toggleToolbar"
+                android:drawableLeft="@drawable/ring"
+                android:text="@string/drug_instruct" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ring"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ring"
+                android:text="@string/drug_instruct" />
+
+            <TextView
+                style="@style/list_item"
+                android:text="@string/drug_instruct" />
+
+            <TextView
+                style="@style/list_item"
+                android:text="@string/drug_instruct" />
+
+            <TextView
+                style="@style/list_item"
+                android:text="@string/drug_instruct" />
+
+            <TextView
+                style="@style/list_item"
+                android:text="@string/drug_instruct" />
+
+            <TextView
+                style="@style/list_item"
+                android:text="@string/drug_instruct" />
+
+            <TextView
+                style="@style/list_item"
+                android:text="@string/drug_instruct" />
+
+            <TextView
+                style="@style/list_item"
+                android:text="@string/drug_instruct" />
+
+            <TextView
+                style="@style/list_item"
+                android:text="@string/drug_instruct" />
+
+            <TextView
+                style="@style/list_item"
+                android:text="@string/drug_instruct" />
+
+            <TextView
+                style="@style/list_item"
+                android:text="@string/drug_instruct" />
+
+            <TextView
+                style="@style/list_item"
+                android:text="@string/drug_instruct" />
+
+            <TextView
+                style="@style/list_item"
+                android:text="@string/drug_instruct" />
+
+            <TextView
+                style="@style/list_item"
+                android:text="@string/drug_instruct" />
+
+            <TextView
+                style="@style/list_item"
+                android:text="@string/drug_instruct" />
+
+            <TextView
+                style="@style/list_item"
+                android:text="@string/drug_instruct" />
+
+            <TextView
+                style="@style/list_item"
+                android:text="@string/drug_instruct" />
+
+
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

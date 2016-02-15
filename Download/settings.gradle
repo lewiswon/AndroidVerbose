@@ -1,1 +1,1 @@
-include ':app', ':library', ':samples'
+include ':app', ':library', ':samples', ':materializ', ':kstyle'
