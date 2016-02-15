@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.lewiswon.android_mooc.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_image_capture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="open"
+            android:text="Capture Image" />
+
+        <com.lewiswon.android_mooc.view.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dip"
+            android:text="沉舟侧畔千帆过，病树前头万木春." />
+
+        <com.lewiswon.android_mooc.view.CustomView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.lewiswon.android_mooc.view.CustomView
+            android:layout_width="300dip"
+            android:layout_height="300dip"
+            android:layout_marginTop="@dimen/activity_horizontal_margin" />
+
+        <com.lewiswon.android_mooc.view.CustomView
+            android:layout_width="match_parent"
+            android:layout_height="500dip"
+            android:layout_marginTop="@dimen/activity_horizontal_margin" />
+
+
+    </LinearLayout>
+</ScrollView>
